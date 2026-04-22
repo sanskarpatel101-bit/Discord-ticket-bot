@@ -20,7 +20,7 @@ def keep_alive():
 
 # ===== BOT =====
 intents = discord.Intents.all()
-bot = commands.Bot(command_prefix="!", intents=intents)
+bot = commands.Bot(command_prefix="!", intents=intents, help_command=None)
 
 config = {
     "CATEGORY_ID": None,
